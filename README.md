@@ -6,7 +6,7 @@ NIM       : 312210025
 
 KELAS     : TI.22.B1
 
-**Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan urutan angka fibonacci, lalu lengkapi dengan fitur toast**  
+**Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan urutan angka fibonacci, lalu lengkapi dengan fitur toast (dijalankan pada device menggunakan usb debugging)**
 
 link video aplikasi yang di jalankan 
 
@@ -18,7 +18,7 @@ https://youtu.be/lsaJa-Uzh5Q?si=b_D-VOy5igGBxHsR
 ![backhand-index-pointing-down_1f447](https://github.com/ririn27/UTS-/assets/115934294/d91e47ef-e2db-499d-a93e-26037ae78031)
 
 
-# Code Activitymain.java ( Relativ Layout )
+# Code Activitymain.java ( Relative Layout )
 
 ![backhand-index-pointing-down_1f447](https://github.com/ririn27/UTS-/assets/115934294/d91e47ef-e2db-499d-a93e-26037ae78031)
 
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-# Toast Activity
+# Toast Activity 
 
 ![backhand-index-pointing-down_1f447](https://github.com/ririn27/UTS-/assets/115934294/6b5b20e5-b9a6-45af-90d3-cb36b7495ca7)
 
@@ -227,4 +227,36 @@ public class MainActivity extends AppCompatActivity {
 
 
 </RelativeLayout>
+
+# Values 
+**Colors.xml**
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <color name="black">#FF000000</color>
+    
+    <color name="white">#FFFFFFFF</color>
+    
+    <color name="purple_200">#FFBB86FC</color>
+    
+    <color name="purple_500">#FF6200FE</color>
+    
+    <color name="purple_700">#FF370083</color>
+    
+    <color name="teal_200">#FF03DAC5</color>
+    
+    <color name="teal_700">#FFBB86FC</color>
+    
+    <color name="red">#D10000</color>
+    
+    <color name="pink">#FFC0CB</color>
+    
+    <color name="Kuning">#FFFF00</color>
+    
+    <color name="SteelBlue">#4682B4</color>
+    
+</resources>
+
 
