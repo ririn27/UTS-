@@ -18,7 +18,7 @@ https://youtu.be/lsaJa-Uzh5Q?si=b_D-VOy5igGBxHsR
 ![backhand-index-pointing-down_1f447](https://github.com/ririn27/UTS-/assets/115934294/d91e47ef-e2db-499d-a93e-26037ae78031)
 
 
-# Code Activitymain.java
+# Code Activitymain.java ( Relativ Layout )
 
 ![backhand-index-pointing-down_1f447](https://github.com/ririn27/UTS-/assets/115934294/d91e47ef-e2db-499d-a93e-26037ae78031)
 
@@ -122,3 +122,109 @@ public class MainActivity extends AppCompatActivity {
         mShowCountFibo.setText(Integer.toString(mCountFibo));
     }
 }
+
+# Toast Activity
+
+![backhand-index-pointing-down_1f447](https://github.com/ririn27/UTS-/assets/115934294/6b5b20e5-b9a6-45af-90d3-cb36b7495ca7)
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_marginBottom="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belajar Toast!"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Increment"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Fibonacci"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textViewNumberFibo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textFontWeight="600"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        style="@style/Widget.AppCompat.Button"
+        android:text="Toast"/>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/Kuning"
+        android:text="Reset"
+        android:textAlignment="center"
+        android:textColor="@color/red" />
+
+    <Button
+        android:id="@+id/button_hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/SteelBlue"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:text="Hitung"/>
+
+
+</RelativeLayout>
+
